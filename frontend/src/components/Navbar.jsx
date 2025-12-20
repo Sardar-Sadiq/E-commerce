@@ -76,4 +76,4 @@ const Navbar = () => {
 export default Navbar
 
 
-//46:31 time stop after this we are creating responsive navbar
+//55:46 time stop after this we need to work on hero section
