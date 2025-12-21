@@ -2,17 +2,18 @@ import React, { useContext, useEffect, useState } from 'react'
 
 import { ShopContext } from '../context/ShopContext.js'
 import Title from './Title.jsx';
+import ProductItem from './productItem.jsx';
 
 
 const LatestCollection = () => {
 
     const { products } = useContext(ShopContext);
-    const [latestProoducts, setLatestProducts] = useState([]);
+    const [latestProducts, setLatestProducts] = useState([]);
 
     useEffect(()=> {
         setLatestProducts(products.slice(0,10));
-    }, [])
-
+    }, [products])
+    
   return (
     <div className='my-10'>
         <div className='py-8 text-3xl text-center'>
@@ -22,7 +23,14 @@ const LatestCollection = () => {
             </p>
         </div>
 
-    
+        {/* rendring products */}
+        <div className='grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-y-6 '>
+            {
+                latestProducts.map((item,index)=>(
+                    <ProductItem key={index} id={item._id} image={item.image} name={item.name} price={item.price} />
+                ))
+            }
+        </div>
     </div>
   )
 }
@@ -32,4 +40,3 @@ export default LatestCollection
 
 
 
-//1:18:31 time stop after we create compo which is used to display the product data

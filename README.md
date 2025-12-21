@@ -6,7 +6,7 @@ in frontend folder
     pages- pages of e commerce
 
 
-
+//1:18:31 time stop after we create compo which is used to display the product data
 
 Learing new things
 
