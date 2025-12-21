@@ -6,7 +6,7 @@ in frontend folder
     pages- pages of e commerce
 
 
-//1:24:28 time stop we are working on latestcollection compo
+//1:34:37 time stop we are working on BestSeller compo
 
 Learing new things
 
