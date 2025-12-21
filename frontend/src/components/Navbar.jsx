@@ -75,5 +75,3 @@ const Navbar = () => {
 
 export default Navbar
 
-
-//55:46 time stop after this we need to work on hero section
