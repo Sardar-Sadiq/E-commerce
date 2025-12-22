@@ -6,7 +6,7 @@ in frontend folder
     pages- pages of e commerce
 
 
-//2:30:28 time stop we are working on Collection page search logic
+//2:43:11 time stop we are working on Collection page 
 
 Learing new things
 
