@@ -7,7 +7,7 @@ in frontend folder
 
 
 //1:50:46 time stop we are working on Collection page
-
+//2:01:18
 Learing new things
 
     useContext hook- it is used to sahre data globally across application components without passing props manually at every level of the compo
