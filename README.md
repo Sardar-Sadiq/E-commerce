@@ -15,3 +15,5 @@ Learing new things
 
 
     useState and useEffect are the powerfull duos in web development
+
+    useParams hook from react-router-dom: It allows componets to render dynamic content based on values like an ID or a username in the URL
