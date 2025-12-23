@@ -6,7 +6,7 @@ in frontend folder
     pages- pages of e commerce
 
 
-//2:46:48 time stop we are working product display page
+//3:12:08 time stop we are working product display page in that working on review & feedbacck section
 
 Learing new things
 
@@ -17,3 +17,11 @@ Learing new things
     useState and useEffect are the powerfull duos in web development
 
     useParams hook from react-router-dom: It allows componets to render dynamic content based on values like an ID or a username in the URL
+
+
+    -----problems to solve-----
+    1. solve the product page image responsive issue
+    
+
+    -----ADD ON's--------------
+    . slide show at hero section. 
