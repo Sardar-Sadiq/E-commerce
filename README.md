@@ -6,7 +6,7 @@ in frontend folder
     pages- pages of e commerce
 
 
-//3:26:17 time stop we are working product display page in that working on add to cart page and its logic
+//3:42:45 time stop we are working cart page
 
 Learing new things
 
