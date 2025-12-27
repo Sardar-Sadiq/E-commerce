@@ -3,6 +3,7 @@ import { useContext } from 'react';
 import { ShopContext } from '../context/ShopContext';
 import Tilte from '../components/Title';
 import { assets } from '../assets/frontend_assets/assets';
+import CartTotal from '../components/CartTotal';
 
 const Cart = () => {
 
@@ -57,7 +58,7 @@ const Cart = () => {
                     </div>
                   </div>
                 </div>
-                <input className='px-1 py-1 border border-gray-200 max-w-10 sm:max-w-20 sm:px-2' type="number" min={1} defaultValue={item.quantity} />
+                <input onChange={(e)=> e.target.value === '' || e.target.value === '0' ? null : updataQuantity(item._id, item.size,Number(e.target.value))} className='px-1 py-1 border border-gray-200 max-w-10 sm:max-w-20 sm:px-2' type="number" min={1} defaultValue={item.quantity} />
                 <img onClick={()=>updataQuantity(item._id, item.size,0)} className='w-4 mr-4 cursor-pointer sm:w-5' src={assets.bin_icon} alt="" />
                 </div>
             )
@@ -67,6 +68,13 @@ const Cart = () => {
           })
         }
       </div>
+      
+        <div className='flex justify-end my-20'>
+          <div className='w-full sm:w-112.5'>
+            <CartTotal/>
+          </div>
+
+        </div>
 
     </div>
   )
