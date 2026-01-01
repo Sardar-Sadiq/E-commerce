@@ -25,3 +25,9 @@ Learing new things
 
     -----ADD ON's--------------
     . slide show at hero section. 
+
+
+
+
+    goal
+    complete this project in first 2 weeks of jan
